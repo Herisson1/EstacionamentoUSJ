@@ -50,7 +50,7 @@ body {
 
 
 
-					<button type="submit" class="btn btn-info btn-raised">
+					<button type="button" class="btn btn-info btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/CadastroUsuarios.jsp'">
 						Cadastrar</button>
 					<button type="submit" class="btn btn-success btn-raised">
 						Entrar</button>

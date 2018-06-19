@@ -63,10 +63,13 @@ body {
 					</div>
 
 
-					<button type="reset" class="btn btn-warning btn-raised">
+					<button type="reset" class="btn btn-secondary btn-raised">
 						Limpar</button>
 					<button type="submit" class="btn btn-success btn-raised">
 						Salvar</button>
+					<button type="button" class="btn btn-danger btn-raised"
+						onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Login.jsp'">
+						Cancelar</button>
 				</div>
 			</div>
 		</div>

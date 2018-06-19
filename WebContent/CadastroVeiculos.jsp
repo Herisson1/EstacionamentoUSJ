@@ -36,12 +36,12 @@
 					<p class="h4 text-center py-4">Cadastro de Veículos</p>
 					
 					<div class="form-group">
-						<label for="motorista" class="bmd-label-floating">Motorista:</label>
+						<label for="motorista" class="bmd-label-floating">Motorista: </label>
 						<input type="text" class="form-control" id="motorista" required>
 					</div>
 
 					<div class="form-group">
-						<label for="placa" class="bmd-label-floating">Placa</label> 
+						<label for="placa" class="bmd-label-floating">Placa: </label> 
 						<input type="text" class="form-control" id="placa" required>
 					</div>
 
@@ -56,8 +56,12 @@
 						</select>
 					</div>
 
-					<button type="reset" class="btn btn-default"> Limpar </button>
-					<button type="submit" class="btn btn-primary btn-raised"> Enviar </button>
+					<button type="reset" class="btn btn-secondary btn-raised">
+						Limpar</button>
+					<button type="submit" class="btn btn-success btn-raised">
+						Salvar</button>
+											<button type="submit" class="btn btn-danger btn-raised">
+						Cancelar</button>
 				</div>
 			</div>
 		</div>

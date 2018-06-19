@@ -36,25 +36,25 @@
 					<p class="h4 text-center py-4">Caixa</p>
 					
 					<div class="form-group">
-						<label for="motorista" class="bmd-label-floating">Motorista:</label>
+						<label for="motorista" class="bmd-label-floating">Motorista: </label>
 <!-- Adicionar função para buscar o motorista do banco -->
 						<input type="text" class="form-control" id="motorista" required>
 					</div>
 
 					<div class="form-group">
-						<label for="placa" class="bmd-label-floating">Placa</label> 
+						<label for="placa" class="bmd-label-floating">Placa: </label> 
 <!-- Adicionar função para buscar a placa do banco -->
 						<input type="text" class="form-control" id="placa" required>
 					</div>
 					
 					<div class="form-group">
-						<label for="horaEntrada" class="bmd-label-floating">Horario de Entrada</label> 
+						<label for="horaEntrada" class="bmd-label-floating">Horario de Entrada: </label> 
 <!-- Adicionar função para buscar a hora de entrada do banco -->
 						<input type="text" class="form-control" id="horaEntrada" required>
 					</div>
 		
 					<div class="form-group">
-						<label for="horaSaida" class="bmd-label-floating">Horario de Saida</label> 
+						<label for="horaSaida" class="bmd-label-floating">Horario de Saida: </label> 
 <!-- Adicionar função para buscar a hora de saida do banco -->
 						<input type="text" class="form-control" id="horaSaida" required>
 					</div>
@@ -67,9 +67,12 @@
 							<option>Cartão Crédito</option>
 						</select>
 					</div>
-
-					<button type="reset" class="btn btn-default"> Limpar </button>
-					<button type="submit" class="btn btn-primary btn-raised"> Enviar </button>
+					<button type="reset" class="btn btn-secondary btn-raised">
+						Limpar</button>
+					<button type="submit" class="btn btn-success btn-raised">
+						Salvar</button>
+											<button type="submit" class="btn btn-danger btn-raised">
+						Cancelar</button>
 				</div>
 			</div>
 		</div>
