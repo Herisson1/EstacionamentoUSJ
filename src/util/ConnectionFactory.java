@@ -10,7 +10,6 @@ public class ConnectionFactory {
 			
 			
 			try {
-				//DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 				return DriverManager.getConnection("jdbc:mysql:3306//localhost/cadastroveiculo", "root", "123456789");
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
