@@ -31,7 +31,7 @@ body {
 </head>
 <body>
 
-	<form>
+	<form method="post">
 
 		<div class="card">
 			<div class="card-body">
@@ -40,26 +40,26 @@ body {
 
 					<div class="form-group">
 						<label for="nome" class="bmd-label-floating">Nome: </label> <input
-							type="text" class="form-control" id="nome" required>
+							type="text" class="form-control" id="nome" required value="${usuario.setNome()}">
 					</div>
 
 					<div class="form-group">
 						<label for="cpf" class="bmd-label-floating">cpf: </label> <input
-							type="text" class="form-control" id="cpf" required>
+							type="text" class="form-control" id="cpf" required value="${usuario.setCpf()}">
 					</div>
 
 					<div class="form-group">
-						<label for="email" class="bmd-label-floating">email: </label> <input
-							type="text" class="form-control" id="email" required>
+						<label for="email" class="bmd-label-floating">email: </label>
+						 <input	type="text" class="form-control" id="email" required value="${usuario.setEmail()}">
 					</div>
 
 					<div class="form-group">
 						<label for="endereco" class="bmd-label-floating">endereco:
-						</label> <input type="text" class="form-control" id="endereco" required>
+						</label> <input type="text" class="form-control" id="endereco" required value="${usuario.setEndereco()}">
 					</div>
 					<div class="form-group">
 						<label for="senha" class="bmd-label-floating">Senha: </label> <input
-							type="text" class="form-control" id="senha" required>
+							type="text" class="form-control" id="senha" required value="${usuario.setSenha()}">
 					</div>
 
 

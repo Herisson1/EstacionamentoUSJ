@@ -1,27 +1,14 @@
 package Estacionamento;
 
 public class Usuario {
-	
-	private String nomeUsuario;
+	private String nome;
+	private String login;
+	private String senha;
 	private String cpf;
 	private String email;
-	private String endereco;
-	private String senha;
 
-	public String getNomeUsuario() {
-		return nomeUsuario;
-	}
+	public void ValidarLogin() {
 
-	public void setNomeUsuario(String nomeUsuario) {
-		this.nomeUsuario = nomeUsuario;
-	}
-
-	public String getCpf() {
-		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
 	}
 
 	public String getEmail() {
@@ -32,12 +19,20 @@ public class Usuario {
 		this.email = email;
 	}
 
-	public String getEndereco() {
-		return endereco;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
 	}
 
 	public String getSenha() {
@@ -47,7 +42,13 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
-	
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 
 }

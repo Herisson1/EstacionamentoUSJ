@@ -45,7 +45,7 @@ body {
 
 					<div class="form-group">
 						<label for="senha" class="bmd-label-floating">Senha: </label> <input
-							type="password" class="form-control" id="placa" required>
+							type="password" class="form-control" id="placa"  required>
 					</div>
 
 
