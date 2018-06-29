@@ -1,1 +1,2 @@
 15/06/2018 - Criada a tela CAIXA com base na tela CADASTRO (para manter o estilo), aguardando banco de dados para adicionar as buscas.
+29/06/2018 - Após ultima alteração está dando erro no webservlet, efetuei alguns testes para corrigir o erro, porém sem sucesso.

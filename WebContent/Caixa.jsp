@@ -69,9 +69,8 @@
 					</div>
 					<button type="reset" class="btn btn-secondary btn-raised">
 						Limpar</button>
-					<button type="submit" class="btn btn-success btn-raised">
-						Salvar</button>
-											<button type="submit" class="btn btn-danger btn-raised">
+
+						<button type="submit" class="btn btn-danger btn-raised">
 						Cancelar</button>
 				</div>
 			</div>
