@@ -39,13 +39,13 @@ body {
 					<p class="h4 text-center py-4">Login</p>
 
 					<div class="form-group">
-						<label for="email" class="bmd-label-floating">email: </label> <input
-							type="text" class="form-control" id="email" required>
+						<label for="email" class="bmd-label-floating">login:  </label> <input
+							type="text" class="form-control" id="email" required value="${usuario.getLogin()}">
 					</div>
 
 					<div class="form-group">
 						<label for="senha" class="bmd-label-floating">Senha: </label> <input
-							type="password" class="form-control" id="placa"  required>
+							type="password" class="form-control" id="placa"  required value="${usuario.getSenha()}">
 					</div>
 
 
