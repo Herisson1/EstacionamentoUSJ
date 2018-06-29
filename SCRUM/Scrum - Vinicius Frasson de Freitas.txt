@@ -1,3 +1,4 @@
 19/06/2018 - Adicionado tela de login, tela de cadastro de Usuario e classe usuario.
 			 Adicionado função no botão de Cadastrar na pagina de login, adicionado função de Cancelar na pagina de cadastro de usuário. Alterada a cor dos
 botãos de Cancelar, Salvar e Limpar.
+29/06/2018 - Adicionado função no Login.jsp - ligando a fnção de login e senha com a classe Usuario em JAVA. Não coloquei mensagem no commit!
