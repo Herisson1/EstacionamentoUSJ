@@ -1,4 +1,4 @@
---DROP DATABASE IF EXISTS EstacionamentoDB;
+DROP DATABASE IF EXISTS EstacionamentoDB;
 
 CREATE DATABASE EstacionamentoDB;
 
@@ -12,3 +12,5 @@ CREATE TABLE Veiculos (
 	TipoVeiculos VARCHAR(20),
 	PRIMARY KEY (ID)
 );
+
+select * from Veiculos

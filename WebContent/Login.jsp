@@ -52,7 +52,7 @@ body {
 
 					<button type="button" class="btn btn-info btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/CadastroUsuarios.jsp'">
 						Cadastrar</button>
-					<button type="submit" class="btn btn-success btn-raised">
+					<button type="submit" class="btn btn-success btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Tela_Inicial.jsp'">
 						Entrar</button>
 				</div>
 			</div>

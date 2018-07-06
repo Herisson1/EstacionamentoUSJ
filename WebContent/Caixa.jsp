@@ -69,8 +69,11 @@
 					</div>
 					<button type="reset" class="btn btn-secondary btn-raised">
 						Limpar</button>
+					
+					<button type="submit" class="btn btn-success btn-raised">
+						Concluir</button>
 
-						<button type="submit" class="btn btn-danger btn-raised">
+					<button type="reset" class="btn btn-danger btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Tela_Inicial.jsp'">
 						Cancelar</button>
 				</div>
 			</div>

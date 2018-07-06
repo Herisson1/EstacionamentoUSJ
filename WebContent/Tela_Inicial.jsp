@@ -33,35 +33,30 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="container">
-					<p class="h4 text-center py-4">Cadastro de Veículos</p>
+					<p class="h4 text-center py-4">Estacionamento</p>
 					
-					<div class="form-group">
-						<label for="motorista" class="bmd-label-floating">Motorista: </label>
-						<input type="text" class="form-control" id="motorista" required>
-					</div>
+<!--  Inserir mensagem de boas vindas (usuário) -->
 
-					<div class="form-group">
-						<label for="placa" class="bmd-label-floating">Placa: </label> 
-						<input type="text" class="form-control" id="placa" required>
-					</div>
-
-					<div class="form-group">
-						<label for="exampleSelect1" class="bmd-label-floating">Tipo de Veículo</label> 
-						<select class="form-control" id="tipoVeiculo">
-							<option>Motocicleta</option>
-							<option>Automóvel</option>
-							<option>Microônibus</option>
-							<option>Ônibus</option>
-							<option>Outros</option>
-						</select>
-					</div>
-
-					<button type="reset" class="btn btn-secondary btn-raised">
-						Limpar</button>
-					<button type="submit" class="btn btn-success btn-raised">
-						Salvar</button>
-					<button type="reset" class="btn btn-danger btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Tela_Inicial.jsp'">
-						Cancelar</button>
+<div class="form-group">	
+					<button type="button" class="btn btn-info btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/CadastroVeiculos.jsp'">
+						Cadastrar Veículo</button>
+</div>
+<div class="form-group">
+					<button type="button" class="btn btn-info btn-raised">
+						Consultar Veículos (Em construção) </button> 
+						<!-- Primeiro consulta pra depois ir para o caixa?? -->
+</div>
+<div class="form-group">
+					<button type="button" class="btn btn-success btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Caixa.jsp'">
+						Caixa</button>
+</div>
+<div class="form-group">
+					<button type="button" class="btn btn-danger btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Login.jsp'">
+						Sair</button> 
+						<!--  Adicionar função para desolgar -->
+</div>
+				
+						
 				</div>
 			</div>
 		</div>
