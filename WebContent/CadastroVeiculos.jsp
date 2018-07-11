@@ -28,7 +28,7 @@
 </head>
 <body>
 
-	<form>
+	<form method="Post" action="ListaVeiculos.jsp" >
 
 		<div class="card">
 			<div class="card-body">
@@ -37,17 +37,17 @@
 					
 					<div class="form-group">
 						<label for="motorista" class="bmd-label-floating">Motorista: </label>
-						<input type="text" class="form-control" id="motorista" required>
+						<input type="text" class="form-control" id="Motorista" name="sMotorista" required>
 					</div>
 
 					<div class="form-group">
 						<label for="placa" class="bmd-label-floating">Placa: </label> 
-						<input type="text" class="form-control" id="placa" required>
+						<input type="text" class="form-control" id="placa" name="sPlaca" required>
 					</div>
 
 					<div class="form-group">
 						<label for="exampleSelect1" class="bmd-label-floating">Tipo de Veículo</label> 
-						<select class="form-control" id="tipoVeiculo">
+						<select class="form-control" id="tipoVeiculo" name="sTipoVeiculo">
 							<option>Motocicleta</option>
 							<option>Automóvel</option>
 							<option>Microônibus</option>
@@ -58,7 +58,7 @@
 
 					<button type="reset" class="btn btn-secondary btn-raised">
 						Limpar</button>
-					<button type="submit" class="btn btn-success btn-raised">
+					<button type="submit" class="btn btn-success btn-raised" value="cadastrarVeiculo">
 						Salvar</button>
 					<button type="reset" class="btn btn-danger btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Tela_Inicial.jsp'">
 						Cancelar</button>

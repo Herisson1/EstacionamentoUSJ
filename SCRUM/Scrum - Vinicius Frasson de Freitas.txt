@@ -7,4 +7,6 @@ botãos de Cancelar, Salvar e Limpar.
 
 06/07/2018 - Não foi dado commit pois minha parte está completa, dependendo do procedimento dos outros programadores.
 
+11/07/2018 - Atualização do layout ListaVeiculos.jsp com implementação da visibilidade dos campos preenchidos
+
 
