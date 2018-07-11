@@ -55,7 +55,7 @@ body {
 					
 					<div class="form-group">
 						<label for="senha" class="bmd-label-floating">Senha: </label> <input
-							type="text" class="form-control" id="senha" required value="${usuario.setSenha()}">
+							type="password" class="form-control" id="senha" required value="${usuario.setSenha()}">
 					</div>
 
 
