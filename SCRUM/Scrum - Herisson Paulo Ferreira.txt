@@ -1,1 +1,4 @@
 15/06/2018 - COMMIT Inicial - Criação da classe java CadastroVeículos e JSP CadastroVeículos, importado o CSS e JS do Framework Material Design.
+22/06/2018 - Criação dos Servlets
+29/06/2018 - Não efetuado commit devido a problemas em máquina local
+06/07/2018 - Não efetuado o commit, porém não foi parado o desenvolvimento

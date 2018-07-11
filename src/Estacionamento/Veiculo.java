@@ -8,28 +8,40 @@ public class Veiculo {
 	
 	// Variáveis
 	
+	private Integer id;
 	private String sMotorista;
 	private String sPlaca;
+	private String sTipoVeiculo;
+
 	private Date dDatIni;
 	private Date dDatFim;
 	
 	
 	// Construtor
 	
-	public Veiculo(String sMotorista, String sPlaca, Date dDatIni, Date dDatFim) {
+	/*public Veiculo(String sMotorista, String sPlaca, String sTipoVeiculo) {
 		
 		this.sMotorista = sMotorista;
 		this.sPlaca = sPlaca;
-		this.dDatIni = dDatIni;
-		this.dDatFim = dDatFim;
-		
-	}
+		this.sTipoVeiculo = sTipoVeiculo;
+
+	}*/
 
 	
 	// Getters e Setters
 	
+	
+	
 	public String getsMotorista() {
 		return sMotorista;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	public void setsMotorista(String sMotorista) {
@@ -59,6 +71,16 @@ public class Veiculo {
 	public void setdDatFim(Date dDatFim) {
 		this.dDatFim = dDatFim;
 	}
+	
+	public String getsTipoVeiculo() {
+		return sTipoVeiculo;
+	}
+
+	public void setsTipoVeiculo(String sTipoVeiculo) {
+		this.sTipoVeiculo = sTipoVeiculo;
+	}
+	
+	
 	
 	private LocalDate datEnt = LocalDate.now();
 	
