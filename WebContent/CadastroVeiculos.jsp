@@ -48,18 +48,18 @@
 					<div class="form-group">
 						<label for="exampleSelect1" class="bmd-label-floating">Tipo de Veículo</label> 
 						<select class="form-control" id="tipoVeiculo" name="sTipoVeiculo">
-							<option>Motocicleta</option>
-							<option>Automóvel</option>
-							<option>Microônibus</option>
-							<option>Ônibus</option>
-							<option>Outros</option>
+							<option>1 - Motocicleta (R$ 2,00 hora)</option>
+							<option>2 - Automóvel (R$ 4,00 hora)</option>
+							<option>3 - Microônibus (R$ 6,00 hora)</option>
+							<option>4 - Ônibus (R$ 8,00 hora)</option>
+							<option>5 - Outros (R$ 1,00 hora)</option>
 						</select>
 					</div>
 
-					<button type="reset" class="btn btn-secondary btn-raised">
-						Limpar</button>
 					<button type="submit" class="btn btn-success btn-raised" value="cadastrarVeiculo">
 						Salvar</button>
+					<button type="reset" class="btn btn-secondary btn-raised">
+						Limpar</button>
 					<button type="reset" class="btn btn-danger btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/Tela_Inicial.jsp'">
 						Cancelar</button>
 				</div>

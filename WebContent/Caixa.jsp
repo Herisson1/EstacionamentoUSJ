@@ -58,6 +58,12 @@
 <!-- Adicionar função para buscar a hora de saida do banco -->
 						<input type="text" class="form-control" id="horaSaida" required>
 					</div>
+					
+					<div class="form-group">
+						<label for="valortotal" class="bmd-label-floating">Total: </label> 
+<!-- Cálculo do valor devido -->
+						<input type="text" class="form-control" id="valortotal" required>
+					</div>
 
 					<div class="form-group">
 						<label for="exampleSelect1" class="bmd-label-floating">Formas de Pagamento</label> 

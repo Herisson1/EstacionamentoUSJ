@@ -42,8 +42,8 @@
 						Cadastrar Veículo</button>
 </div>
 <div class="form-group">
-					<button type="button" class="btn btn-info btn-raised">
-						Consultar Veículos (Em construção) </button> 
+					<button type="button" class="btn btn-info btn-raised" onClick="window.location.href='http://localhost:8080/Sistema_de_Estacionamento_USJ/ListaVeiculos.jsp'">
+						Lista de Veículos </button> 
 						<!-- Primeiro consulta pra depois ir para o caixa?? -->
 </div>
 <div class="form-group">

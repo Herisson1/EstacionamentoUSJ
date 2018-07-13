@@ -50,17 +50,15 @@
 
 
 					<div class="form-group">
-						<label for="motorista" class="bmd-label-floating">Motorista:
-						</label> <input type="text" class="form-control"
-							value="<%out.println(sMotorista);%>" readonly> <label
-							for="placa" class="bmd-label-floating">Placa: </label> <input
-							type="text" class="form-control" id="placa"
-							value="<%out.println(sPlaca);%>"readonly> <label
-							for="tipoveiculo" class="bmd-label-floating">Tipo de
-							Veiculo: </label> <input t class="form-control" id="placa"
-							value="<%out.println(sTipoVeiculo);%>"readonly>
+						<label for="motorista" class="bmd-label-floating"> Motorista:</label>
+						<input type="text" class="form-control" value="<%out.println(sMotorista);%>" readonly>
+						
+						<label	for="placa" class="bmd-label-floating">Placa:</label>
+						<input type="text" class="form-control" id="placa" value="<%out.println(sPlaca);%>"readonly>
+						
+						<label for="tipoveiculo" class="bmd-label-floating">Tipo de Veiculo:</label>
+						<input t class="form-control" id="placa" value="<%out.println(sTipoVeiculo);%>"readonly>
 					</div>
-
 
 
 					<button type="button" class="btn btn-danger btn-raised"

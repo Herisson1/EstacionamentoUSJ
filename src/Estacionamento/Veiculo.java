@@ -32,6 +32,11 @@ public class Veiculo {
 	
 	
 	
+	public Veiculo(String id2, String sMotorista2, String sTipoVeiculo2, java.sql.Date dDatIni2,
+			java.sql.Date dDatFim2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getsMotorista() {
 		return sMotorista;
 	}

@@ -51,7 +51,7 @@ public class VeiculoDAO {
 			
 			while(rs.next()) {
 				
-				Veiculo veiculo = new Veiculo();
+				Veiculo veiculo = new Veiculo(sql, sql, sql, null, null);
 				
 				veiculo.setsMotorista(rs.getString("Motorista"));
 				veiculo.setsPlaca(rs.getString("Placa"));
