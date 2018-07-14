@@ -1,4 +1,5 @@
 15/06/2018 - Criada a tela CAIXA com base na tela CADASTRO (para manter o estilo), aguardando banco de dados para adicionar as buscas.
-22/06/2018 - 
+22/06/2018 - Problemas técnicos com o SQL/Eclipse.
 29/06/2018 - Após última alteração está dando erro no webservlet, efetuei alguns testes para corrigir o erro, porém sem sucesso.
 06/07/2018 - Criada a "tela_inicial", fazendo ligação das telas já criadas, faltando adicionar mensagem de boas vindas (Bem vindo .usuário).
+13/07/2018 - Adicionada a classe ConexaoJdbc + ajustes na navegação.
